@@ -16,27 +16,19 @@ function ImgSlider() {
   return (
     <Carousel {...settings}>
       <Wrap>
-        <a>
-          <img src="/images/slider-badging.jpg" alt="" />
-        </a>
+        <img src="/images/slider-badging.jpg" alt="" />
       </Wrap>
 
       <Wrap>
-        <a>
-          <img src="/images/slider-scale.jpg" alt="" />
-        </a>
+        <img src="/images/slider-scale.jpg" alt="" />
       </Wrap>
 
       <Wrap>
-        <a>
-          <img src="/images/slider-badag.jpg" alt="" />
-        </a>
+        <img src="/images/slider-badag.jpg" alt="" />
       </Wrap>
 
       <Wrap>
-        <a>
-          <img src="/images/slider-scales.jpg" alt="" />
-        </a>
+        <img src="/images/slider-scales.jpg" alt="" />
       </Wrap>
     </Carousel>
   );
@@ -71,7 +63,7 @@ const Wrap = styled.div`
   cursor: pointer;
   img {
     width: 100%;
-    height: 100%;
+    height: 1000%;
     border-radius: 4px;
     box-shadow: rgb(0 0 0 / 69%) 0px 26px 30px -10px,
       rgb(0 0 0 / 73%) 0px 16px 10px -10px;
